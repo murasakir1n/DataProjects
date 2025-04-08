@@ -55,12 +55,12 @@ print(monthly_counts)
 
 
 # График количества метеоритов по месяцам
-# plt.figure(figsize=(10, 6))
-# monthly_counts.plot(kind='bar')
-# plt.title("Количество метеоритов в 2004 году по месяцам")
-# plt.xlabel("Месяц")
-# plt.ylabel("Количество")
-# plt.show()
+plt.figure(figsize=(10, 6))
+monthly_counts.plot(kind='bar')
+plt.title("Количество метеоритов в 2004 году по месяцам")
+plt.xlabel("Месяц")
+plt.ylabel("Количество")
+plt.show()
 
 #Export to postgresql
 
